@@ -40,7 +40,8 @@ class Graph:
                 float(item[6]), # service_time
                 int(item[7]),   # pid 
                 int(item[8]),   # did 
-                float(item[9])  # time (hoặc speed)
+                float(item[9]),  # time (hoặc speed)
+                float(item[10])
             )
             for item in node_list
         ]
